@@ -11,6 +11,7 @@ RUN yum -y install  java-1.8.0-openjdk-devel
 RUN java -version
 
 WORKDIR /opt/tomcat/webapps
+COPY target/hello-1.0.0.war .
 RUN curl -O -L https://github.com/AKSarav/SampleWebApp/raw/master/dist/SampleWebApp.war
 
 EXPOSE 8080
