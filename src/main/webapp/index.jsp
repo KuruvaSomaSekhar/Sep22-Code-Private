@@ -7,7 +7,7 @@
 <h1>Congratulations Pipelines!</h1>
 <img src="bike.jpg" alt="My Company Bike" width="500" height="600">
 
-<h2>You have successfully launched your Instance! Private Repo!</h2>
+<h2>You have successfully launched your Instance! Welcome to dockers!</h2>
     <?php echo gethostname(); ?>
     <p>hostname is: $(hostname)</p>
    <button ondblclick="myhost()">
